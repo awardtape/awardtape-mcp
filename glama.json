@@ -1,0 +1,15 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "awardtape-defense-infrastructure-mcp",
+  "description": "US DoW/Pentagon & 78-country allied defense contracts, expiring incumbent recompetes, SPLC multi-tier defense supply-chain graph, US HV transformer/grid interconnection queues, and BIS/OFAC/UFLPA supplier compliance MCP server.",
+  "homepage": "https://awardtape.com/agents/",
+  "Maintainers": [
+    {
+      "name": "AwardTape Data Engineering (Datil Technologies Inc.)",
+      "url": "https://awardtape.com"
+    }
+  ],
+  "endpoints": {
+    "streamableHttp": "https://awardtape.com/api/mcp"
+  }
+}

@@ -1,0 +1,8 @@
+# Smithery.ai MCP Server Configuration for AwardTape
+name: awardtape-defense-infrastructure-mcp
+displayName: AwardTape — Defense Contracts, Allied Procurement, Power Grid Queues & Sanctions Compliance
+description: Search 10.64M+ US DoW/Pentagon contract obligations, 78 allied country procurement feeds, expiring incumbent recompete windows, SPLC defense supply chains, US power grid interconnection queues, and BIS/OFAC/UFLPA supplier sanctions.
+homepage: https://awardtape.com/agents/
+remote:
+  type: streamable-http
+  url: https://awardtape.com/api/mcp

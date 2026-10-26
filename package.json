@@ -1,0 +1,34 @@
+{
+  "name": "awardtape-mcp",
+  "version": "1.2.0",
+  "description": "MCP Server for AwardTape (awardtape.com) — US DoW/Pentagon & 78-Country Allied Defense Contracts, Expiring Recompetes, SPLC Supply-Chain Graph, US Power Grid Queues & Sanctions/UFLPA Compliance Matrix",
+  "license": "MIT",
+  "author": "Datil Technologies Inc. (66 West Flagler Street, Suite 900, PMB 12079, Miami, FL 33144)",
+  "homepage": "https://awardtape.com/agents/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awardtape/awardtape-mcp.git"
+  },
+  "type": "module",
+  "bin": {
+    "awardtape-mcp": "./bin/index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "defense-contracts",
+    "dod",
+    "pentagon",
+    "usaspending",
+    "fpds",
+    "recompetes",
+    "supply-chain",
+    "power-grid",
+    "uflpa",
+    "bis-entity-list",
+    "govcon"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

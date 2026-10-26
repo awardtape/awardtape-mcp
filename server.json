@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.awardtape/awardtape-mcp",
+  "description": "US DoW/Pentagon & 78-country allied defense contracts, expiring recompetes, SPLC supply-chain graph, US power grid interconnection queues, and BIS/OFAC/UFLPA supplier compliance MCP server.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/awardtape/awardtape-mcp",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "1.2.0"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://awardtape.com/api/mcp"
+    }
+  ]
+}
